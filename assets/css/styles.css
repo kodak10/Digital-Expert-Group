@@ -1,0 +1,381 @@
+*{margin: 0;padding: 0;box-sizing: border-box;}
+
+html{scroll-behavior: smooth;}
+
+li{list-style: none;}
+a{text-decoration: none;}
+/*******Header*******/
+header{
+    background: #fff;
+}
+
+.navbar .container{
+    margin: 20px auto;
+}
+.navbar-nav {
+    margin-left: auto;
+}
+.navbar-brand{
+    font-size: 28px;
+    font-weight: 800;
+    letter-spacing: 3px;
+}
+.nav-item .nav-link{
+    font-size: 18px;
+    margin: 15px;
+}
+.nav-item .active{
+    color: rgb(228, 35, 30) !important;
+    font-weight: bold;
+}
+
+/******Banner*******/
+.banner{background-color: #fff !important;min-height: 100vh;}
+.banner .about {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.banner button{
+    padding: 10px;
+    width: 200px;
+    padding: 10px;
+
+}
+.banner button:first-child{
+    background-color: #e4231e;
+    border: 2px solid #e4231e;
+}
+.banner button:first-child:hover{
+    background-color: #fff;
+    border: 2px solid #e4231e;
+}
+
+.banner button:last-child{
+    background-color: #fff;
+    border: 2px solid #0e1532;
+}
+.banner button:last-child:hover{
+    background-color: #0e1532;
+    border: 2px solid #0e1532;
+    color: #fff;
+}
+
+.banner .title h3{font-size: 42px;font-weight: 600;}
+.banner .social{
+    display: flex;
+}
+.banner .facebook{
+    background: rgb(74, 21, 145);
+    margin-right: 20px;
+    height: 50px;
+    width: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+}
+.banner .facebook:hover{
+    transform: translateY(7px);
+    transition: 0.3s all ease-in-out;
+}
+.banner .instagramme:hover{
+    transform: translateY(7px);
+    transition: 0.3s all ease-in-out;
+}
+.banner .instagramme{
+    border-radius: 50%;
+    background: #c12f0e;
+    height: 50px;
+    width: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.instagramme,.facebook i{
+    color: #fff !important;
+    font-size: 22px;
+}
+
+
+
+/******Services******/
+.ours_services{
+background: #be3030;
+min-height: 40vh;
+margin-top: -100px;
+}
+.ours_services .box{
+    background-color: #f5f5f5;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5px;
+    padding: 15px;
+    margin: 20px auto;
+    margin-top: -100px;
+}
+.ours_services .active{
+    background-color: #f5f5f5;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5px;
+    padding: 15px;
+    box-shadow: 5px 0px 20px 0px #b9b9b9;
+}
+.ours_services  .box:hover{
+    box-shadow: 5px 0px 20px 0px #b9b9b9;
+}
+.ours_services .box:hover .text-box span{
+    color: #dfcc03;
+}
+.ours_services .box:hover .icon-box i{
+    color: #dfcc03;
+    transition: 0.3s ease-in-out;
+    transform: rotate(50deg);
+}
+.ours_services .icon-box{margin-top: 10px;}
+.ours_services .icon-box i{
+    font-size: 32px;
+    color: #0e1532;
+}
+.ours_services .text-box{
+    margin: 30px auto;
+}
+.ours_services .text-box span{
+    font-size: 20px;
+    font-weight: 700;
+    color: #0e1532;
+}
+
+
+/******About***/
+.about{
+    min-height: 70vh;
+    display: grid;
+    place-items: center;
+}
+.about .content{
+    width: 90%;
+    margin: auto;
+}
+.about h3{
+    font-size: 38px;
+    font-weight: 600;
+}
+.about button{
+    padding: 10px;
+    border: 2px solid #be3030;
+}
+.about button a{
+    color: #fff;
+}
+
+/********Dream*******/
+.dream{
+    min-height: 50vh;
+    display: grid;
+    place-items: center;
+}
+.dream .card img{
+    height: 200px;
+}
+.dream .infos .info-name{
+    font-size: 20px;
+font-weight: 700;
+color: bisque;
+
+}
+.dream .infos .info-role{
+
+color: bisque;
+font-size: 18px;
+font-weight: 400;
+}
+.card-body .social{
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+.social .facebook{
+    background: #0e1532;
+    margin-right: 30px;
+    border-radius: 10px;
+}
+.social .linkedin{
+    background-color: #be3030;
+    border-radius: 10px;
+}
+.social a i{
+    padding: 15px;
+    color: #fff !important;
+}
+/*******Tutorial*******/
+.tutorial{
+    margin: 50px auto;
+}
+/********Testimonial******/
+.testimonial .box-carousel{
+    display: grid;
+    place-items: center;
+}
+.testimonial video{
+    height: 400px;
+    width: 100%;
+}
+.testimonial .carousel-indicators{
+    margin-top: 50px;
+}
+.testimonial .carousel-indicators button{
+    background: #0e1532;
+    border-radius: 50%;
+    margin: 20px;
+    border: none;
+    height: 20px;
+    width: 20px;
+}
+.testimonial .carousel-inner{
+    margin-bottom: 100px;
+}
+.testimonial .carousel-item p i{
+    font-size: 50px;
+    color: #6a6a6a2d;
+}
+.testimonial .name{
+    font-size: 18px;
+    font-weight: 600;
+}
+.testimonial .statut{
+    color: gray;
+}
+
+/********Contact us******/
+.contact_us{
+    min-height: 80vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.contact_us .icons{
+    height: 60px;
+    width: 60px;
+    border-radius: 50%;
+    background-color: #0e1532;
+    margin-right: 20px;
+}
+.contact_us i{
+    font-size: 20px;
+    color: #fff;
+}
+.contact_us form{
+  margin-left: 30px;
+}
+.contact_us form span{
+    color: red;
+    font-size: 18px;
+}
+
+/*********Footer*******/
+.footer{
+    background: gray;
+}
+.footer .menu{
+    margin: 0px auto;
+}
+.footer .menu ul li{margin: 20px; font-size: 18px;}
+
+.footer a{
+    text-decoration: none;
+    color: #fff;
+    font-weight: 500;
+}
+.footer .socials .social{
+    background: #fff;
+    height: 40px;
+width: 40px;
+border-radius: 50%;
+}
+.social a i{
+    color: #0e1532;
+}
+
+/********Responsive********/
+@media (max-width:991px) {
+    header{
+        margin-top: 30px;
+    }
+
+    .navbar-nav{
+        float: none;
+        text-align: center;
+        margin-left: 0;
+    }
+    .navbar-collapse{
+        min-height: 50vh;
+        display: grid;
+        place-items: center;
+    }
+
+    /*****Banner****/
+    .about {
+        min-height: 0;
+        margin: 50px auto;
+    }
+
+
+    .banner img{
+        width: 100%;
+        margin-bottom: 110px;
+    }
+    /*****About*****/
+    .about img{
+        margin-bottom: 40px;
+    }
+    .about .content {
+        width: 100%;
+      }
+    /******Ours services*****/
+    .ours_services .box{
+        margin-top: 10px;
+    }
+    .contact_us form{
+        margin-left: 0px;
+      }
+}
+
+@media (max-width:499px) {
+    .navbar-brand{
+        font-size: 24px;
+        letter-spacing: 1px;
+    }
+    .boutons button:first-child{
+        margin-bottom: 20px;
+    }
+}
+@media (max-width:415px) {
+    .navbar-brand{
+        font-size: 20px;
+    }
+    .banner .title h3{
+        font-size: 36px;
+    }
+
+}
+@media (max-width:396px) {
+    .navbar-brand{
+        font-size: 18px;
+    }
+    .banner .title h3{
+        font-size: 32px;
+    }
+
+}
+@media (max-width:332px) {
+    .navbar-brand{
+        display: none;
+    }
+    .navbar-toggler{
+        margin-left: auto;
+    }
+}
